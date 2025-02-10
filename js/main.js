@@ -15,13 +15,13 @@
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
-        duration: 0,
+        duration: 800,
         autoplay: false
     })
     .add({
         targets: '#loader',
         opacity: 0,
-        duration: 0,
+        duration: 1000,
         begin: function(anim) {
             window.scrollTo(0, 0);
         }
